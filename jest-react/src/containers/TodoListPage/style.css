@@ -1,0 +1,78 @@
+.header {
+    line-height: 60px;
+    background: #333;
+    font-size: 24px;
+    color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #CDCDCD;
+}
+.header-content {
+    color: #fff;
+    font-size: 24px;
+    margin:0 auto;
+    width: 600px;
+}
+.header-input {
+    outline: none;
+    float: right;
+    margin-top: 15px;
+    line-height: 24px;
+    border-radius: 5px;
+    padding: 0 10px;
+    width: 60%;
+}
+.undo-list {
+    margin: 0 auto;
+    width: 600px;
+}
+.undo-list-title {
+    margin: 10px 0;
+    line-height: 30px;
+    font-size: 24px;
+    font-weight: blod;
+}
+.undo-list-count {
+    float: right;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+    text-align: center;
+    background: #E6E6EA;
+    border-radius: 50%;
+}
+.undo-list-content {
+    list-style-type: none;
+}
+.undo-list-item {
+    line-height: 34px;
+    font-size: 12px;
+    margin-bottom: 14px;
+    background: #ffff;
+    border-left: 3px solid #629A9C;
+    text-indent: 10px;
+    border-radius: 3px;
+}
+.undo-list-delete {
+    float: right;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-indent: 0;
+    text-align: center;
+    background: #E6E6EA;
+    border-radius: 50%;
+    margin-top: 6px;
+    margin-right: 6px;
+} 
+.undo-item-input {
+    position: relative;
+    top: -2px;
+    width: 300px;
+    line-height: 22px;
+}
